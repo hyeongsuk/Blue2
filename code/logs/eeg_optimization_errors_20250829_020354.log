@@ -1,0 +1,4 @@
+2025-08-29 02:03:54,563 - INFO - Starting Real EEG Optimization
+2025-08-29 02:03:54,585 - INFO - Features loaded from checkpoint: (10620, 782)
+2025-08-29 02:03:54,585 - INFO - Starting LOSO-TTD analysis
+2025-08-29 02:05:21,298 - INFO - Starting ML optimization

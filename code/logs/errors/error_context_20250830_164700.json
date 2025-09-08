@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-30T16:47:00.566409",
+  "error_type": "MainExecutionError",
+  "error_message": "cannot access local variable 'loso_results' where it is not associated with a value",
+  "context": {
+    "stage": "main_execution",
+    "current_step": "unknown",
+    "data_shapes": {
+      "X": [
+        116,
+        782
+      ],
+      "y": [
+        116
+      ]
+    },
+    "loso_completed": false,
+    "optimization_completed": true,
+    "validation_completed": true
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/code/real_eeg_optimization.py\", line 401, in run_real_eeg_optimization\n    'loso_ttd_results': loso_results,  # 주결과\n                        ^^^^^^^^^^^^\nUnboundLocalError: cannot access local variable 'loso_results' where it is not associated with a value\n"
+}

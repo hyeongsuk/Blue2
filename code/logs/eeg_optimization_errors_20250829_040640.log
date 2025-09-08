@@ -1,0 +1,5 @@
+2025-08-29 04:06:40,405 - INFO - Starting Real EEG Optimization
+2025-08-29 04:06:40,406 - INFO - Loading existing features from: /Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/results/outputs/real_eeg_features.csv
+2025-08-29 04:06:41,255 - INFO - Loaded features: (10620, 782)
+2025-08-29 04:06:41,256 - ERROR - Error logged to: logs/errors/error_context_20250829_040641.json
+2025-08-29 04:06:41,256 - ERROR - Real EEG optimization failed: select_top_features() got an unexpected keyword argument 'n_features'

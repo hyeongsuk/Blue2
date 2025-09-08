@@ -1,0 +1,50 @@
+2025-08-29 04:17:57,556 - INFO - Starting Real EEG Optimization
+2025-08-29 04:17:57,560 - INFO - Features loaded from checkpoint: (10620, 75)
+2025-08-29 04:17:57,561 - INFO - LOSO-TTD analysis results loaded from checkpoint
+2025-08-29 04:17:57,582 - INFO - ML optimization results loaded from checkpoint
+2025-08-29 04:17:57,582 - INFO - ML optimization completed successfully
+2025-08-29 04:17:57,582 - INFO - Starting validation analysis
+🚀 REAL EEG DATA OPTIMIZATION
+========================================
+📝 Log file: logs/eeg_optimization_errors_20250829_041757.log
+🚀 Starting new session: 20250829_041757
+
+📊 PIPELINE STATUS
+==================================================
+Session ID: 20250829_041757
+Last Updated: 2025-08-29T04:17:57.556846
+
+Completed Steps: 3/4
+  ✅ feature_extraction: 2025-08-29T04:08:23.976019
+  ✅ ml_optimization: 2025-08-29T04:01:11.959281
+  ⏳ validation_analysis: pending
+  ⏳ paper_results: pending
+
+Next Step: validation_analysis
+
+📂 LOADING FEATURE EXTRACTION CHECKPOINT
+----------------------------------------
+📂 Checkpoint loaded: feature_extraction
+✅ Features loaded from checkpoint: (10620, 75)
+🔢 Original feature shape: (10620, 782)
+📊 Top feature indices: 75 selected
+
+📂 LOADING LOSO-TTD ANALYSIS CHECKPOINT
+--------------------------------------------------
+📂 Checkpoint loaded: loso_ttd_analysis
+✅ LOSO-TTD results loaded from checkpoint
+
+📂 LOADING ML OPTIMIZATION CHECKPOINT
+----------------------------------------
+📂 Checkpoint loaded: ml_optimization
+✅ Optimization results loaded from checkpoint
+   Best AUC: 0.847
+
+🔍 STEP 3: VALIDATION ANALYSIS
+------------------------------
+🚀 COMPREHENSIVE VALIDATION ANALYSIS
+=============================================
+📊 OVERFITTING ANALYSIS
+==============================
+Analyzing overfitting:   0%|          | 0/3 [00:00<?, ?it/s]Analyzing overfitting:  33%|███▎      | 1/3 [00:02<00:05,  2.72s/it]/Users/hyeongsuk/miniforge3/envs/eeg_analysis/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

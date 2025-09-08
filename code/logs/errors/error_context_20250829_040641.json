@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-29T04:06:41.256587",
+  "error_type": "MainExecutionError",
+  "error_message": "select_top_features() got an unexpected keyword argument 'n_features'",
+  "context": {
+    "stage": "main_execution",
+    "current_step": "unknown",
+    "data_shapes": {
+      "X": [
+        10620,
+        782
+      ],
+      "y": [
+        10620
+      ]
+    },
+    "loso_completed": false,
+    "optimization_completed": false,
+    "validation_completed": false
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/code/real_eeg_optimization.py\", line 1173, in run_real_eeg_optimization\n    X_selected, top_feature_indices = select_top_features(X, y, n_features=200)\n                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: select_top_features() got an unexpected keyword argument 'n_features'\n"
+}

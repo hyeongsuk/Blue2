@@ -1,0 +1,4 @@
+2025-08-29 04:31:29,970 - INFO - Starting Real EEG Optimization
+2025-08-29 04:32:16,418 - INFO - Features loaded from checkpoint: (10620, 100)
+2025-08-29 04:32:16,422 - ERROR - Error logged to: logs/errors/error_context_20250829_043216.json
+2025-08-29 04:32:16,422 - ERROR - Real EEG optimization failed: 'NoneType' object is not subscriptable

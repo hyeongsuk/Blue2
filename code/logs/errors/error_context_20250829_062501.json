@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-29T06:25:01.826835",
+  "error_type": "MainExecutionError",
+  "error_message": "Object of type VotingClassifier is not JSON serializable",
+  "context": {
+    "stage": "main_execution",
+    "current_step": "unknown",
+    "data_shapes": {
+      "X": [
+        10620,
+        782
+      ],
+      "y": [
+        10620
+      ]
+    },
+    "loso_completed": true,
+    "optimization_completed": true,
+    "validation_completed": true
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/code/real_eeg_optimization.py\", line 1320, in run_real_eeg_optimization\n    log_error_context(\n                       \n  File \"/Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/code/paper_results_generator.py\", line 322, in generate_comprehensive_paper_results\n    json.dump(comprehensive_results_clean, f, indent=2)\n  File \"/Users/hyeongsuk/miniforge3/envs/eeg_analysis/lib/python3.11/json/__init__.py\", line 179, in dump\n    for chunk in iterable:\n  File \"/Users/hyeongsuk/miniforge3/envs/eeg_analysis/lib/python3.11/json/encoder.py\", line 432, in _iterencode\n    yield from _iterencode_dict(o, _current_indent_level)\n  File \"/Users/hyeongsuk/miniforge3/envs/eeg_analysis/lib/python3.11/json/encoder.py\", line 406, in _iterencode_dict\n    yield from chunks\n  File \"/Users/hyeongsuk/miniforge3/envs/eeg_analysis/lib/python3.11/json/encoder.py\", line 406, in _iterencode_dict\n    yield from chunks\n  File \"/Users/hyeongsuk/miniforge3/envs/eeg_analysis/lib/python3.11/json/encoder.py\", line 406, in _iterencode_dict\n    yield from chunks\n  [Previous line repeated 1 more time]\n  File \"/Users/hyeongsuk/miniforge3/envs/eeg_analysis/lib/python3.11/json/encoder.py\", line 439, in _iterencode\n    o = _default(o)\n        ^^^^^^^^^^^\n  File \"/Users/hyeongsuk/miniforge3/envs/eeg_analysis/lib/python3.11/json/encoder.py\", line 180, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\nTypeError: Object of type VotingClassifier is not JSON serializable\n"
+}

@@ -1,0 +1,5 @@
+2025-08-29 03:33:07,459 - INFO - Starting Real EEG Optimization
+2025-08-29 03:33:07,459 - INFO - Loading existing features from: /Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/results/outputs/real_eeg_features.csv
+2025-08-29 03:33:08,292 - INFO - Loaded features: (10620, 782)
+2025-08-29 03:33:24,489 - INFO - Starting LOSO-TTD analysis
+2025-08-29 03:34:39,164 - INFO - Starting ML optimization

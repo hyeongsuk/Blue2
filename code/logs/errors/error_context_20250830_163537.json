@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-08-30T16:35:37.504771",
+  "error_type": "MainExecutionError",
+  "error_message": "name 'extract_eeg_features_with_labels' is not defined",
+  "context": {
+    "stage": "main_execution",
+    "current_step": "unknown",
+    "data_shapes": {
+      "X": "N/A",
+      "y": "N/A"
+    },
+    "loso_completed": false,
+    "optimization_completed": false,
+    "validation_completed": false
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/code/real_eeg_optimization.py\", line 143, in run_real_eeg_optimization\n    X, y, subjects, passages, t_elapsed = extract_eeg_features_with_labels()\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name 'extract_eeg_features_with_labels' is not defined\n"
+}

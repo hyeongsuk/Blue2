@@ -1,0 +1,12 @@
+2025-08-29 04:26:11,056 - INFO - Starting Real EEG Optimization
+2025-08-29 04:26:11,056 - INFO - Loading existing features from: /Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/results/outputs/real_eeg_features.csv
+2025-08-29 04:26:11,912 - INFO - Loaded features: (10620, 782)
+2025-08-29 04:26:43,545 - INFO - Starting LOSO-TTD analysis
+2025-08-29 04:28:42,255 - INFO - Starting ML optimization
+2025-08-29 05:16:41,872 - INFO - ML optimization completed successfully
+2025-08-29 05:16:42,042 - INFO - ML optimization completed successfully
+2025-08-29 05:16:42,042 - INFO - Starting validation analysis
+2025-08-29 06:12:18,507 - INFO - Validation analysis completed
+2025-08-29 06:12:18,508 - INFO - Starting paper results generation
+2025-08-29 06:25:01,827 - ERROR - Error logged to: logs/errors/error_context_20250829_062501.json
+2025-08-29 06:25:01,827 - ERROR - Real EEG optimization failed: Object of type VotingClassifier is not JSON serializable

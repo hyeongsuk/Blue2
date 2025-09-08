@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-08-30T16:02:49.779217",
+  "error_type": "MainExecutionError",
+  "error_message": "Object of type PosixPath is not JSON serializable",
+  "context": {
+    "stage": "main_execution",
+    "current_step": "unknown",
+    "data_shapes": {
+      "X": [
+        10620,
+        100
+      ],
+      "y": [
+        10620
+      ]
+    },
+    "loso_completed": true,
+    "optimization_completed": true,
+    "validation_completed": true
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/code/real_eeg_optimization.py\", line 273, in run_real_eeg_optimization\n    paper_results = generator.generate_comprehensive_paper_results()\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/code/paper_results_generator.py\", line 280, in generate_comprehensive_paper_results\n    json.dump(comprehensive_results_clean, f, indent=2)\n  File \"/Users/hyeongsuk/miniforge3/lib/python3.12/json/__init__.py\", line 179, in dump\n    for chunk in iterable:\n                 ^^^^^^^^\n  File \"/Users/hyeongsuk/miniforge3/lib/python3.12/json/encoder.py\", line 432, in _iterencode\n    yield from _iterencode_dict(o, _current_indent_level)\n  File \"/Users/hyeongsuk/miniforge3/lib/python3.12/json/encoder.py\", line 406, in _iterencode_dict\n    yield from chunks\n  File \"/Users/hyeongsuk/miniforge3/lib/python3.12/json/encoder.py\", line 406, in _iterencode_dict\n    yield from chunks\n  File \"/Users/hyeongsuk/miniforge3/lib/python3.12/json/encoder.py\", line 439, in _iterencode\n    o = _default(o)\n        ^^^^^^^^^^^\n  File \"/Users/hyeongsuk/miniforge3/lib/python3.12/json/encoder.py\", line 180, in default\n    raise TypeError(f'Object of type {o.__class__.__name__} '\nTypeError: Object of type PosixPath is not JSON serializable\n"
+}

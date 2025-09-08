@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-08-30T16:37:21.137784",
+  "error_type": "MainExecutionError",
+  "error_message": "'str' object has no attribute 'name'",
+  "context": {
+    "stage": "main_execution",
+    "current_step": "unknown",
+    "data_shapes": {
+      "X": "N/A",
+      "y": "N/A"
+    },
+    "loso_completed": false,
+    "optimization_completed": false,
+    "validation_completed": false
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/code/real_eeg_optimization.py\", line 141, in extract_eeg_features_with_labels\n    subject_id, passage = subject_from_filename(file_path.name)\n                                                ^^^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'name'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/code/real_eeg_optimization.py\", line 239, in run_real_eeg_optimization\n    X, y, subjects, passages, t_elapsed = extract_eeg_features_with_labels()\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/code/real_eeg_optimization.py\", line 169, in extract_eeg_features_with_labels\n    f\"Failed to process {file_path.name}: {e}\",\n                         ^^^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'name'\n"
+}

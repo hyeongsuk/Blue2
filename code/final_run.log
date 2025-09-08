@@ -1,0 +1,39 @@
+2025-08-29 04:31:29,970 - INFO - Starting Real EEG Optimization
+2025-08-29 04:32:16,418 - INFO - Features loaded from checkpoint: (10620, 100)
+2025-08-29 04:32:16,422 - ERROR - Error logged to: logs/errors/error_context_20250829_043216.json
+2025-08-29 04:32:16,422 - ERROR - Real EEG optimization failed: 'NoneType' object is not subscriptable
+🚀 REAL EEG DATA OPTIMIZATION
+========================================
+📝 Log file: logs/eeg_optimization_errors_20250829_043129.log
+🚀 Starting new session: 20250829_043129
+
+📊 PIPELINE STATUS
+==================================================
+Session ID: 20250829_043129
+Last Updated: 2025-08-29T04:31:29.970964
+
+Completed Steps: 2/4
+  ✅ feature_extraction: 2025-08-29T04:26:43.539790
+  ⏳ ml_optimization: pending
+  ⏳ validation_analysis: pending
+  ⏳ paper_results: pending
+
+Next Step: ml_optimization
+
+📂 LOADING FEATURE EXTRACTION CHECKPOINT
+----------------------------------------
+❌ Checkpoint not found: feature_extraction
+❌ Failed to load checkpoint, extracting features...
+🔬 Reverting to High-Performance Feature Selection
+   Target: 100 features (achieved 0.847 AUC previously)
+✅ Selected top 100 features based on Mutual Information
+   Feature shape: (10620, 100)
+   Top MI scores: [0.02776088 0.02565058 0.02546179 0.02427904 0.0226002 ]
+✅ Features shape: (10620, 100)
+
+📂 LOADING LOSO-TTD ANALYSIS CHECKPOINT
+--------------------------------------------------
+❌ Checkpoint not found: loso_ttd_analysis
+❌ Real EEG optimization failed: 'NoneType' object is not subscriptable
+
+❌ FAILED: Check error messages above.

@@ -1,0 +1,31 @@
+2025-08-29 04:06:40,405 - INFO - Starting Real EEG Optimization
+2025-08-29 04:06:40,406 - INFO - Loading existing features from: /Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/results/outputs/real_eeg_features.csv
+2025-08-29 04:06:41,255 - INFO - Loaded features: (10620, 782)
+2025-08-29 04:06:41,256 - ERROR - Error logged to: logs/errors/error_context_20250829_040641.json
+2025-08-29 04:06:41,256 - ERROR - Real EEG optimization failed: select_top_features() got an unexpected keyword argument 'n_features'
+🚀 REAL EEG DATA OPTIMIZATION
+========================================
+📝 Log file: logs/eeg_optimization_errors_20250829_040640.log
+🚀 Starting new session: 20250829_040640
+
+📊 PIPELINE STATUS
+==================================================
+Session ID: 20250829_040640
+Last Updated: 2025-08-29T04:06:40.405946
+
+Completed Steps: 2/4
+  ⏳ feature_extraction: pending
+  ✅ ml_optimization: 2025-08-29T04:01:11.959281
+  ⏳ validation_analysis: pending
+  ⏳ paper_results: pending
+
+Next Step: feature_extraction
+
+🔄 STEP 1: FEATURE EXTRACTION
+------------------------------
+📁 Loading existing features from: /Users/hyeongsuk/Library/CloudStorage/OneDrive-개인/HS_논문작성/KOOS/results/outputs/real_eeg_features.csv
+✅ Loaded features: (10620, 782)
+🔍 Selecting top features using Mutual Information
+❌ Real EEG optimization failed: select_top_features() got an unexpected keyword argument 'n_features'
+
+❌ FAILED: Check error messages above.
